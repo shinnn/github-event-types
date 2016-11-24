@@ -1,0 +1,39 @@
+{
+  "name": "github-event-types",
+  "version": "1.0.0",
+  "description": "All Event types of the Github API",
+  "repository": "shinnn/github-event-types",
+  "author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+  "scripts": {
+    "pretest": "eslint --fix --format=codeframe .",
+    "test": "node --throw-deprecation --track-heap-objects test.js"
+  },
+  "license": "Unlicense",
+  "module": "module.js",
+  "files": [
+    "index.json",
+    "module.js"
+  ],
+  "keywords": [
+    "json",
+    "data",
+    "github",
+    "api",
+    "list",
+    "array",
+    "name",
+    "type",
+    "event"
+  ],
+  "devDependencies": {
+    "@shinnn/eslint-config-node": "^3.0.0",
+    "eslint": "^3.10.2",
+    "get-github-event-types": "^1.0.0",
+    "require-from-string": "^1.2.1",
+    "rollup": "^0.36.4",
+    "tape": "^4.6.3"
+  },
+  "eslintConfig": {
+    "extends": "@shinnn/node"
+  }
+}

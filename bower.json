@@ -1,0 +1,31 @@
+{
+  "name": "github-event-types",
+  "description": "All Event types of the Github API",
+  "keywords": [
+    "json",
+    "data",
+    "github",
+    "api",
+    "list",
+    "array",
+    "name",
+    "type",
+    "event"
+  ],
+  "main": "module.js",
+  "moduleType": "es6",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shinnn/github-event-types.git"
+  },
+  "authors": [
+    "Shinnosuke Watanabe (https://github.com/shinnn)"
+  ],
+  "license": "Unlicense",
+  "ignore": [
+    "**/.*",
+    "*.js",
+    "*.json",
+    "node_modules"
+  ]
+}
